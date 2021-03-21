@@ -104,3 +104,9 @@ textarea {
 	border: 3px solid #cccccc;
 	padding: 5px;
 }
+
+/* projects styling */
+#portfolio {
+  border: var(--secondary) solid 3px;
+  border-radius: 5px;
+}
