@@ -1,5 +1,5 @@
 import React from 'react';
-import devConnect from '../../assets/images/';
+import devConnect from '../../assets/images/dev-connect.PNG';
 
 function Portfolio() {
     return(
