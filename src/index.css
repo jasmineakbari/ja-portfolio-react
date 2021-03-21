@@ -38,7 +38,7 @@ button:hover {
 /* navbar stylings */
 .navbar {
   background-color: var(--secondary);
-  color: var(--fourth);
+  color: white;
 }
 
 .navbar a {
@@ -53,6 +53,10 @@ button:hover {
 .navbar btn:hover {
   background: rgb(189,99,237);
   background: linear-gradient(18deg, rgba(189,99,237,1) 26%, rgba(48,127,214,1) 56%, rgba(172,236,163,1) 91%);
+}
+
+.navActive {
+  color: rgba(48,127,214,1);
 }
 
 /* about me section styling */
@@ -73,4 +77,30 @@ button:hover {
 
 #aboutMe h2 {
   margin-bottom: 25px;
+}
+
+/* Contact Form Styling */
+form {
+  width: 40%;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
 }

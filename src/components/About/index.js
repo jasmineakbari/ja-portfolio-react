@@ -17,7 +17,7 @@ function About() {
                         </p>
                     </div>
                     <div className="col-4 m-auto">
-                        <img src="https://via.placeholder.com/225x300" />
+                        <img src="https://via.placeholder.com/225x300" alt='banner'/>
                     </div>
                 </div>
             </div>
