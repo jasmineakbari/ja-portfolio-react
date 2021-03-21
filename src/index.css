@@ -105,7 +105,16 @@ textarea {
 	padding: 5px;
 }
 
+#submit {
+  color: white;
+  background-color: var(--fourth);
+}
+
 /* projects styling */
 
 
-/* Footer Styling */
+/* resume styling */
+#download {
+  color: white;
+  background-color: var(--fourth);
+}

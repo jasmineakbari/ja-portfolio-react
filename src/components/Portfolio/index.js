@@ -7,11 +7,10 @@ import weatherHub from '../../assets/images/weather-hub.PNG';
 import photoPort from '../../assets/images/photo-port.PNG'
 
 function Portfolio(props) {
-    const { currentPage } = props
     
     return(
-        <div className="container m-auto" id="portfolio">
-        <div className="shadow-lg">
+        <div className="container m-auto shadow-lg" id="portfolio">
+        <div>
             <div className="row justify-content-center">
                 <h2>My Projects</h2>
             </div>
