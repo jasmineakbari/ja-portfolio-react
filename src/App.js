@@ -9,16 +9,14 @@ import ContactForm from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
-  const [page] = useState({ About, Portfolio, Resume})
-  const [currentPage, setCurrentPage] = useState(page);
+  const [currentPage, handlePageChange] = useState('About');
   const [contactSelected, setContactSelected] = useState(false);
   
   return (
     <div>
       <Banner></Banner>
       <Nav
-        page={page}
-        setCurrentPage={setCurrentPage}
+        handlePageChange={handlePageChange}
         currentPage={currentPage}
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}

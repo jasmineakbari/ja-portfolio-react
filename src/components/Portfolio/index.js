@@ -6,7 +6,9 @@ import workday from '../../assets/images/work-day-scheduler.PNG';
 import weatherHub from '../../assets/images/weather-hub.PNG';
 import photoPort from '../../assets/images/photo-port.PNG'
 
-function Portfolio() {
+function Portfolio(props) {
+    const { currentPage } = props
+    
     return(
         <div className="container m-auto" id="portfolio">
         <div className="shadow-lg">
