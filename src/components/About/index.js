@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
     return(
         <div className="container-fluid">
-            <div className="container shadow-lg" id="aboutMe">
+            <div className="container shadow-lg" id="about">
                 <div className="row mb-5 rounded">
                     <div className="col-4 p-4 m-auto aboutText">
                         <h2 className="text-center">About Me</h2>

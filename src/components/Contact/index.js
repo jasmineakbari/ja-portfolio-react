@@ -41,7 +41,7 @@ function ContactForm() {
 
     // JSX sets rendering
     return (
-        <section>
+        <section id="contact">
             <h1>Contact Me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Banner from './components/Banner';
 import Nav from './components/Nav';
@@ -10,27 +10,30 @@ import Footer from "./components/Footer";
 
 function App() {
   const [currentPage, handlePageChange] = useState('About');
-  const [contactSelected, setContactSelected] = useState(false);
+
+  useEffect(() => {
+    document.title = `${currentPage}`;
+  });
+  
+  const renderPage = () => {
+    switch (currentPage) {
+      case 'About':
+        return <About />;
+      case 'Portfolio':
+        return <Portfolio />;
+      case 'Contact':
+        return <ContactForm />;
+      case 'Resume':
+        return <Resume />;
+    }
+  };
   
   return (
     <div>
       <Banner></Banner>
-      <Nav
-        handlePageChange={handlePageChange}
-        currentPage={currentPage}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       <main>
-      {!contactSelected ? (
-        <>
-          <About currentPage={currentPage}></About>
-          <Portfolio currentPage={currentPage}></Portfolio>
-          <Resume currentPage={currentPage}></Resume>
-        </>
-      ) : (
-          <ContactForm></ContactForm>
-        )}
+        <div>{renderPage(currentPage)}</div>
       </main>
       <Footer></Footer>
     </div>
