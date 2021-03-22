@@ -4,10 +4,14 @@ import exploreOutdoors from '../../assets/images/explore-outdoors.PNG';
 import taskmaster from '../../assets/images/taskmasterPro.PNG';
 import workday from '../../assets/images/work-day-scheduler.PNG';
 import weatherHub from '../../assets/images/weather-hub.PNG';
-import photoPort from '../../assets/images/photo-port.PNG'
+import photoPort from '../../assets/images/photo-port.PNG';
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 function Portfolio(props) {
-    
+    AOS.init();
+
     return(
         <div className="container m-auto shadow-lg" id="portfolio">
         <div>

@@ -19,6 +19,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 button {
   font-size: 1rem;
   text-decoration: none;
@@ -117,4 +125,19 @@ textarea {
 #download {
   color: white;
   background-color: var(--fourth);
+  font-size: 1rem;
+  padding: .8rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+}
+
+#resumeLink {
+  text-decoration: none;
+}
+
+#download:hover {
+  opacity: .8;
 }
