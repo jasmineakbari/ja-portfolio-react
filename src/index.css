@@ -45,7 +45,7 @@ button:hover {
 
 /* navbar stylings */
 .navbar {
-  background-color: var(--secondary);
+  background-color: darkgray;
   color: white;
 }
 
@@ -76,7 +76,7 @@ button:hover {
 }
 
 .aboutText {
-  border: var(--secondary) solid 5px;
+  border: darkgray solid 5px;
 }
 
 #aboutMe img {
