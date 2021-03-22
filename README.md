@@ -13,6 +13,7 @@ This is my Web Developer Portfolio via React. It conditionally renders all the s
 ## Link to the Application
 
 Visit the deployed application at: [https://jasmineakbari.github.io/ja-portfolio-react/](https://jasmineakbari.github.io/ja-portfolio-react/)
+![Portfolio Image](./src/assets/images/app-image.PNG)
 
 ## Contributing
 
