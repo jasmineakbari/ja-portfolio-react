@@ -7,12 +7,12 @@ This is my Web Developer Portfolio via React. It conditionally renders all the s
 
 ## Table of Contents
 
-* [LinktotheApplication](#linktotheapplication)
+* [Link to the Application](#linktotheapplication)
 * [Contributing](#contributing)
 
 ## Link to the Application
 
-Visit the deployed application at: [portfolio](https://jasmineakbari.github.io/ja-portfolio-react/)
+Visit the deployed application at: [https://jasmineakbari.github.io/ja-portfolio-react/](https://jasmineakbari.github.io/ja-portfolio-react/)
 
 ## Contributing
 
