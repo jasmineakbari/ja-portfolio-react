@@ -12,10 +12,10 @@ This is my Web Developer Portfolio via React. It conditionally renders all the s
 
 ## Link to the Application
 
-Visit the deployed application at: [portfolio]()
+Visit the deployed application at: [portfolio](https://jasmineakbari.github.io/ja-portfolio-react/)
 
 ## Contributing
 
-Made with ❤️ by: [GitHub](https://github.com/jasmineakbari)
+Made with ❤️ by: [GitHub](https://github.com/jasmineakbari)/jasmineakbari/
 
 If you would like to contribute to this work please feel free to submit any push/pull request, create issues or reach out to me at my email: jasmineakbari@yahoo.com.
