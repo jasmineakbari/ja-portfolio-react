@@ -2,7 +2,7 @@ import React from 'react';
 import devConnect from '../../assets/images/dev-connect.PNG';
 import exploreOutdoors from '../../assets/images/explore-outdoors.PNG';
 import taskmaster from '../../assets/images/taskmasterPro.PNG';
-import workday from '../../assets/images/work-day-scheduler.PNG';
+import devConnectV2 from '../../assets/images/dev-connect-v2.png';
 import weatherHub from '../../assets/images/weather-hub.PNG';
 import photoPort from '../../assets/images/photo-port.PNG';
 import AOS from "aos";
@@ -28,9 +28,9 @@ function Portfolio(props) {
                     </div>
                     <div className="p-2" data-aos="fade-right" data-aos="zoom-in" data-aos-duration="3000">
                         <h3>Work Day Scheduler</h3>
-                        <a href="https://jasmineakbari.github.io/work-day-scheduler/" target="_blank">
-                            <img id="fifty" src={workday} style={{ width: "80%" }} alt="Work Day Scheduler" /></a>
-                        <p>A simple Work Day Planner, color coded to show upcoming, current and past events</p>
+                        <a href="https://github.com/jasmineakbari/dev-connect-v2" target="_blank">
+                            <img id="fifty" src={devConnectV2} style={{ width: "80%" }} alt="Work Day Scheduler" /></a>
+                        <p>A group project: Social Media Site using MERN Stack.</p>
                     </div>
                     <div className="p-2" data-aos="fade-right" data-aos="zoom-in" data-aos-duration="3000">
                         <h3>Explore Outdoors</h3>
