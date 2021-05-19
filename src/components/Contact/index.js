@@ -33,17 +33,11 @@ function ContactForm() {
         }
     }
 
-    // handles syncing form data
-    function handleSubmit(e) {
-        e.preventDefault();
-        console.log(formState);
-    }
-
     // JSX sets rendering
     return (
         <section id="contact">
             <h1>Contact Me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
+            <form id="contact-form" action="https://formspree.io/f/xgeradya" method="POST">
                 <div>
                     <label htmlFor="name">Name:</label>
                     <input type="text" defaultValue={name} onBlur={handleChange} name="name" />

@@ -43,6 +43,20 @@ button:hover {
   opacity: .8;
 }
 
+/* hero stylings */
+
+.heroContainer {
+  min-width: 100%; 
+  height: 500px; 
+  background-image: url(./assets/images/hero.jpg);
+  color: white;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+}
+
 /* navbar stylings */
 .navbar {
   background-color: darkgray;

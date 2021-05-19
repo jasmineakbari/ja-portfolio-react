@@ -1,10 +1,16 @@
 import React from 'react';
-import bannerImg from "../../assets/images/banner.PNG";
 
 function Banner() {
     return(
         <section>
-            <img src={bannerImg} style={{ width: "100%" }} alt="cover" />
+            <div className="heroContainer">
+                <div className="heroText">
+                    <h1>Jasmine Akbari</h1>
+                </div>
+                <div className="heroDescription">
+                    <h2>Full Stack Web Developer</h2>
+                </div>
+            </div>
         </section>
     )
 }

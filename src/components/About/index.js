@@ -6,7 +6,7 @@ function About() {
         <div className="container-fluid">
             <div className="container shadow-lg" id="about">
                 <div className="row mb-5 rounded">
-                    <div className="col-4 p-4 m-auto aboutText">
+                    <div className="col-sm-4 p-4 m-auto aboutText">
                         <h2 className="text-center">About Me</h2>
                         <p>Born and raised in San Diego, CA I made my way to Florida in July 2019 
                             and have been here ever since. With a Finance and compliance background, 
@@ -17,7 +17,7 @@ function About() {
                             passion to create!
                         </p>
                     </div>
-                    <div className="col-4 m-auto">
+                    <div className="col-sm-4 m-auto">
                         <img src={profile} alt='banner' className="aboutImg"/>
                     </div>
                 </div>
