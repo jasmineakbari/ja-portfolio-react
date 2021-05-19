@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ja-portfolio-react/static/css/main.01284c30.chunk.css",
-    "main.js": "/ja-portfolio-react/static/js/main.9a0ab9ec.chunk.js",
-    "main.js.map": "/ja-portfolio-react/static/js/main.9a0ab9ec.chunk.js.map",
+    "main.css": "/ja-portfolio-react/static/css/main.0aec9dbe.chunk.css",
+    "main.js": "/ja-portfolio-react/static/js/main.0cec2361.chunk.js",
+    "main.js.map": "/ja-portfolio-react/static/js/main.0cec2361.chunk.js.map",
     "runtime-main.js": "/ja-portfolio-react/static/js/runtime-main.38017559.js",
     "runtime-main.js.map": "/ja-portfolio-react/static/js/runtime-main.38017559.js.map",
     "static/css/2.a9403a19.chunk.css": "/ja-portfolio-react/static/css/2.a9403a19.chunk.css",
@@ -12,12 +12,12 @@
     "static/js/3.ba3fd30b.chunk.js.map": "/ja-portfolio-react/static/js/3.ba3fd30b.chunk.js.map",
     "index.html": "/ja-portfolio-react/index.html",
     "static/css/2.a9403a19.chunk.css.map": "/ja-portfolio-react/static/css/2.a9403a19.chunk.css.map",
-    "static/css/main.01284c30.chunk.css.map": "/ja-portfolio-react/static/css/main.01284c30.chunk.css.map",
+    "static/css/main.0aec9dbe.chunk.css.map": "/ja-portfolio-react/static/css/main.0aec9dbe.chunk.css.map",
     "static/js/2.0649a244.chunk.js.LICENSE.txt": "/ja-portfolio-react/static/js/2.0649a244.chunk.js.LICENSE.txt",
-    "static/media/banner.188a2528.PNG": "/ja-portfolio-react/static/media/banner.188a2528.PNG",
     "static/media/dev-connect-v2.a9d558e3.png": "/ja-portfolio-react/static/media/dev-connect-v2.a9d558e3.png",
     "static/media/dev-connect.07a422cb.PNG": "/ja-portfolio-react/static/media/dev-connect.07a422cb.PNG",
     "static/media/explore-outdoors.3b6ebcc8.PNG": "/ja-portfolio-react/static/media/explore-outdoors.3b6ebcc8.PNG",
+    "static/media/index.css": "/ja-portfolio-react/static/media/hero.20952c02.jpg",
     "static/media/photo-port.3a25c2a1.PNG": "/ja-portfolio-react/static/media/photo-port.3a25c2a1.PNG",
     "static/media/profile-1.262242f1.jpg": "/ja-portfolio-react/static/media/profile-1.262242f1.jpg",
     "static/media/taskmasterPro.d6b6463d.PNG": "/ja-portfolio-react/static/media/taskmasterPro.d6b6463d.PNG",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.38017559.js",
     "static/css/2.a9403a19.chunk.css",
     "static/js/2.0649a244.chunk.js",
-    "static/css/main.01284c30.chunk.css",
-    "static/js/main.9a0ab9ec.chunk.js"
+    "static/css/main.0aec9dbe.chunk.css",
+    "static/js/main.0cec2361.chunk.js"
   ]
 }
