@@ -87,6 +87,11 @@ button:hover {
   margin-bottom: 25px;
 }
 
+.aboutImg {
+  max-height: 400px;
+  max-width: 250px;
+}
+
 /* Contact Form Styling */
 form {
   width: 40%;
@@ -119,7 +124,11 @@ textarea {
 }
 
 /* projects styling */
-
+.github a {
+  text-decoration: none;
+  color: var(--fourth);
+  font-weight: bold;
+}
 
 /* resume styling */
 #download {

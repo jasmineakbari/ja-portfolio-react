@@ -1,4 +1,5 @@
 import React from 'react';
+import profile from '../../assets/images/profile-1.jpg';
 
 function About() {
     return(
@@ -17,7 +18,7 @@ function About() {
                         </p>
                     </div>
                     <div className="col-4 m-auto">
-                        <img src="https://via.placeholder.com/225x300" alt='banner'/>
+                        <img src={profile} alt='banner' className="aboutImg"/>
                     </div>
                 </div>
             </div>

@@ -7,6 +7,7 @@ import weatherHub from '../../assets/images/weather-hub.PNG';
 import photoPort from '../../assets/images/photo-port.PNG';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { getDefaultNormalizer } from '@testing-library/dom';
 
 
 function Portfolio(props) {
@@ -19,18 +20,24 @@ function Portfolio(props) {
                 <h2>My Projects</h2>
             </div>
             <div className="row justify-content-center">
+                <p>Click on the images to be taken to the deployed application or you can click Github links below the images for the code.
+                </p>
+            </div>
+            <div className="row justify-content-center">
                 <div className="col-6 p-2">
                     <div className="p-2" data-aos="fade-right" data-aos="zoom-in" data-aos-duration="3000">
                         <h3>Taskmaster Pro</h3>
                         <a href="https://jasmineakbari.github.io/taskmaster-pro/" target="_blank">
                             <img id= "fifty" src={taskmaster} style={{ width: "80%" }} alt="Taskmaster Pro" /></a>
                         <p>An intuitive task manager with color coded deadlines</p>
+                        <p className="github"><a href="https://github.com/jasmineakbari/taskmaster-pro" target="_blank">Github</a></p>
                     </div>
                     <div className="p-2" data-aos="fade-right" data-aos="zoom-in" data-aos-duration="3000">
-                        <h3>Work Day Scheduler</h3>
+                        <h3>DevConnect V2</h3>
                         <a href="https://github.com/jasmineakbari/dev-connect-v2" target="_blank">
                             <img id="fifty" src={devConnectV2} style={{ width: "80%" }} alt="Work Day Scheduler" /></a>
                         <p>A group project: Social Media Site using MERN Stack.</p>
+                        <p className="github"><a href="https://github.com/jasmineakbari/dev-connect-v2" target="_blank">Github</a></p>
                     </div>
                     <div className="p-2" data-aos="fade-right" data-aos="zoom-in" data-aos-duration="3000">
                         <h3>Explore Outdoors</h3>
@@ -38,6 +45,7 @@ function Portfolio(props) {
                             <img id="twentyFive" src={exploreOutdoors} style={{ width: "80%" }} alt="Explore Outdoors" /></a>
                         <div>
                             <p>A group project: Travel Destination page to help users determine a new vacation location with a quiz and flight widget.</p>
+                            <p className="github"><a href="https://github.com/jasmineakbari/Explore-Outdoors" target="_blank">Github</a></p>
                         </div>
                     </div>
                 </div>
@@ -47,6 +55,7 @@ function Portfolio(props) {
                         <a href="https://jasmineakbari.github.io/weather-hub/" target="_blank">
                             <img id="fifty" src={weatherHub} style={{ width: "80%" }} alt="Weather Hub" /></a>
                         <p>A Weather Application page with 8 day forecast</p>
+                        <p className="github"><a href="https://github.com/jasmineakbari/weather-hub" target="_blank">Github</a></p>
                     </div>
                     <div className="p-2" data-aos="fade-left" data-aos="zoom-in" data-aos-duration="3000">
                         <h3>Photo Port</h3>
@@ -54,6 +63,7 @@ function Portfolio(props) {
                             <img id="twentyFive" src={photoPort} style={{ width: "80%", height: "50%" }} alt="Photo Port" /></a>
                         <div>
                             <p>A sample Photography Portfolio using React.</p>
+                            <p className="github"><a href="https://github.com/jasmineakbari/photo-port" target="_blank">Github</a></p>
                         </div>
                     </div>
                     <div className="p-2" data-aos="fade-left" data-aos="zoom-in" data-aos-duration="3000">
@@ -61,6 +71,7 @@ function Portfolio(props) {
                         <a href="https://dev-connect-ac.herokuapp.com/login" target="_blank">
                             <img id="fifty" src={devConnect} style={{ width: "80%" }} alt="Dev Connect"/></a>
                         <p>A Social Media Application geared towards Web Developers</p>
+                        <p className="github"><a href="https://github.com/jasmineakbari/dev-connect" target="_blank">Github</a></p>
                     </div>
                 </div>
             </div>
